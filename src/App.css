@@ -1,0 +1,44 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg, #2a0f44, 35%, #783bcd);
+}
+
+.App-header {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-around;
+}
+
+.opcoes {
+    display: flex;
+}
+
+.opcao {
+    height: 100%;
+    display: flex;
+    padding: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 120px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Icones {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.icone {
+    display: flex;
+    margin-left: 70%;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}   
