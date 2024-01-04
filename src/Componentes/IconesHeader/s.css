@@ -1,0 +1,11 @@
+.Icones {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.icone {
+    display: flex;
+    margin-left: 70%;
+    text-align: center;
+}
