@@ -1,11 +1,8 @@
-.Icones {
-    cursor: pointer;
+.icones {
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
 }
-
 .icone {
-    display: flex;
-    margin-left: 70%;
-    text-align: center;
+    cursor: pointer;
+    padding: 0 5px;
 }
