@@ -4,7 +4,7 @@ import { useState } from "react"
 import { livros } from './dadosPesquisa'
 
 const PesquisaContainer = styled.section`
-    background-image: linear-gradient(90deg, #fffff 35%, #326589 165%);
+    background-image: linear-gradient(90deg, #000000 , #df5812  100%);
     color: #FFF;
     text-align: center;
     padding: 85px 0;

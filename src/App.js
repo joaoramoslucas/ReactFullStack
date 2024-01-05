@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
-import Pesquisa from './Componentes/Pesquisa';
 import Header from './Componentes/Header';
+import Pesquisa from './Componentes/Pesquisa';
+import UltimoLancamento from './Componentes/UltimosLancamentos';
 
 const AppContainer = styled.div`
     overflow: auto;
@@ -15,6 +16,7 @@ function App() {
     <AppContainer>
       <Header />
       <Pesquisa />
+      <UltimoLancamento />
     </AppContainer>
   );
 }
