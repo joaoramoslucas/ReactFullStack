@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 import { Titulo } from "../../Titulo";
 import CardRecomenda from "../CardRecomenda";
 import imagemLivro from '../../Imagens/livro2.png'
@@ -31,7 +30,7 @@ function UltimoLancamento() {
             </Titulo>
             <NovosLivrosContainer>
                 {livrosLancamentos.map(livro => (
-                    <img src={livro.src} />
+                    <img src={livro.src} alt="Descricao da Imagem!"/>
                 ))}
             </NovosLivrosContainer>
             <CardRecomenda

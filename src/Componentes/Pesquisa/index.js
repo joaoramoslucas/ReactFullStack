@@ -40,7 +40,7 @@ const Resultado = styled.div`
 `
 function Pesquisa() {
     const [livrosPesquisados, setLivrosPesquisados] = useState([])
-    
+
     return (
         <PesquisaContainer>
             <Titulo>Já sabe por onde Começar?</Titulo>
